@@ -5,10 +5,11 @@ import {useStateValue} from '../modules/context/state';
 
 const MyBackText = () => {
   const [{stateNumber}] = useStateValue();
-  return <Text
-   numberOfLines={3}
-   
-   style={styles.text}>{stateNumber.number}</Text>;
+  return (
+    <Text numberOfLines={3} style={styles.text}>
+      {stateNumber.number}
+    </Text>
+  );
 };
 
 export default MyBackText;
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
     zIndex: -1,
     color: '#7E828015',
     top: 100,
-    width:'100%',
-    textAlign:'center'
+    width: '100%',
+    textAlign: 'center',
   },
 });

@@ -1,11 +1,10 @@
-// used context apı and hook
+// using  context apı with hook
 import React, {createContext, useContext, useReducer} from 'react';
 
-// created Context for state
+// create StateContext for state
 export const StateContext = createContext();
 
-// created StateProvider
-// props => reducer,  initialState , child.
+// create StateProvider 
 export const StateProvider = (props) => {
   const {reducer, initialState, children} = props;
 
@@ -15,5 +14,5 @@ export const StateProvider = (props) => {
     </StateContext.Provider>
   );
 };
-// available state Context for components.
+// initialize and export StateContext for  any components.
 export const useStateValue = () => useContext(StateContext);

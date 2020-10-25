@@ -1,4 +1,4 @@
-# Simple Global State for React Native 
+ # Simple Global State for React Native 
  
 ![Alt text](https://github.com/alperenyanc/RNStateManagement/blob/main/screens/ios.gif)
 ![Alt text](https://github.com/alperenyanc/RNStateManagement/blob/main/screens/android.gif)
@@ -12,18 +12,18 @@ npm i react-native-simple-global-state
  
 ### Basic Usage
  
-Firstly import StateProvider in your App.js
+First import StateProvider in your App.js
 ```shr
 import {StateProvider} from 'react-native-simple-global-state';
 ```
 Create initial state (obj)  
 For example increaseNumber
-There is the sipmle example for increase number.
+There is  a sipmle example for number counter.
 ```sh
  const App = () => {
   // first create initialState  obj.
   const initialState = {stateNumber: {number: 0}};
-  // added reducer simple using state ,and actions
+  // added reducer function, state and actions
   const reducer = (state, action) => {
     switch (action.type) {
       case 'increaseNumber':
@@ -37,8 +37,8 @@ There is the sipmle example for increase number.
     }
   };
   return (
-    // added Provider
-    // given initialState and reducer in stateProvider.
+    // added StateProvider
+    // given initialState and reducer to StateProvider.
     <StateProvider initialState={initialState} reducer={reducer}>
      ... 
     </StateProvider>
@@ -54,7 +54,7 @@ First import useStateValue  in your components
 ```sh
   const MyButton = () => {
   const [{stateNumber}, dispatch] = useStateValue();
-  //statenumber is your number, dispach for action.
+  //statenumber is your variable , dispatch  for action.
   const onPress = () => {
     dispatch({
     // type=> action.type
