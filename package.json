@@ -1,7 +1,7 @@
 {
-  "name": "RNStateManagement",
+  "name": "rn_easy_state_management",
   "version": "0.0.1",
-  "private": true,
+   
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -25,5 +25,20 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "react native simple state management",
+  "main": "./src/modules/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperenyanc/RNStateManagement.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "alp eren yancı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alperenyanc/RNStateManagement/issues"
+  },
+  "homepage": "https://github.com/alperenyanc/RNStateManagement#readme"
 }
