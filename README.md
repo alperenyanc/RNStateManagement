@@ -17,15 +17,15 @@ you can find source code ./src/modules
 ### APP structure 
 
  ├── src
-    ├── modules                    
-    │   ├── context               # state 
-    │   ├── index.js              # Module export
-    │   ├── ReadMe.md             # Readme for npmjs
-    └── components
-        ├── MyButtonjs            # Button component
-        ├── MyText.js             # Text component 
-        ├── MyBackText.md         # BackText Component
-        ├── Index.js
+    ├── modules                                                                  
+    │   ├── context               # state                                        
+    │   ├── index.js              # Module export                                
+    │   ├── ReadMe.md             # Readme for npmjs                             
+    └── components                                                               
+        ├── MyButtonjs            # Button component                             
+        ├── MyText.js             # Text component                               
+        ├── MyBackText.md         # BackText Component                           
+        ├── Index.js                                                             
 
 
 ### Installation
