@@ -3,7 +3,31 @@
 ![Alt text](https://github.com/alperenyanc/RNStateManagement/blob/main/screens/ios.gif)
 ![Alt text](https://github.com/alperenyanc/RNStateManagement/blob/main/screens/android.gif)
 
- 
+### Example
+Colone this project;
+
+```sh
+npm install
+npm start
+react-native run-anroid
+react-native run-ios
+```
+you can find source code ./src/modules
+
+### APP structure 
+
+ ├── src
+    ├── modules                    
+    │   ├── context               # state 
+    │   ├── index.js              # Module export
+    │   ├── ReadMe.md             # Readme for npmjs
+    └── components
+        ├── MyButtonjs            # Button component
+        ├── MyText.js             # Text component 
+        ├── MyBackText.md         # BackText Component
+        ├── Index.js
+
+
 ### Installation
  
 ```sh
