@@ -1,6 +1,6 @@
 {
   "name": "rn_easy_state_management",
-  "version": "0.0.1",
+  "version": "0.0.2",
    
   "scripts": {
     "android": "react-native run-android",
