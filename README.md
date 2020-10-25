@@ -15,7 +15,7 @@ react-native run-ios
 you can find source code ./src/modules
 
 ### APP structure 
-
+```sh
  ├── src                                                                         
     ├── modules                                                                  
     ├── context                   # state                                     │   ├── index.js              # Module export                                
@@ -25,7 +25,7 @@ you can find source code ./src/modules
         ├── MyText.js             # Text component                               
         ├── MyBackText.md         # BackText Component                           
         ├── Index.js                                                             
-
+```
 
 ### Installation
  
