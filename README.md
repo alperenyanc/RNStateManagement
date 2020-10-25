@@ -18,7 +18,8 @@ you can find source code ./src/modules
 ```sh
  ├── src                                                                         
     ├── modules                                                                  
-    ├── context                   # state                                     │   ├── index.js              # Module export                                
+    │   ├── context               # state                                        
+    │   ├── index.js              # Module export                                
     │   ├── ReadMe.md             # Readme for npmjs                             
     └── components                                                               
         ├── MyButtonjs            # Button component                             
