@@ -9,3 +9,7 @@ node_modules
 
 # Runtime data
 tmp
+
+ios
+android
+_test
