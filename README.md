@@ -16,7 +16,7 @@ you can find source code ./src/modules
 
 ### APP structure 
 
- ├── src
+ ├── src                                                                         
     ├── modules                                                                  
     │   ├── context               # state                                        
     │   ├── index.js              # Module export                                
