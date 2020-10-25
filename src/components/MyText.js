@@ -5,7 +5,7 @@ import {useStateValue} from '../modules/context/state';
 
 const MyText = () => {
   const [{stateNumber}] = useStateValue();
-return (
+  return (
     <View style={styles.textView}>
       <Text style={styles.text}>{stateNumber.number}</Text>
     </View>

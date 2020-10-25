@@ -1,5 +1,7 @@
 # Simple Global State for React Native 
  
+Add this ![Alt text](ios.gif) / ![](ios.gif)
+
 ### Installation
  
 ```sh
@@ -9,7 +11,7 @@ npm i react-native-simple-global-state
 ### Basic Usage
  
 Firstly import StateProvider in your App.js
-```sh
+```shr
 import {StateProvider} from 'react-native-simple-global-state';
 ```
 Create initial state (obj)  
