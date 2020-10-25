@@ -59,14 +59,10 @@ buck-out/
 /ios/Pods/
 .gitignore
 
-# Logs
-*.log
-npm-debug.log
-
+ 
 # Runtime data
 tmp
 build
 dist
 
-# Dependency directory
-node_modules
+ 
