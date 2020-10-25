@@ -1,6 +1,7 @@
 # Simple Global State for React Native 
  
 ![Alt text](https://github.com/alperenyanc/RNStateManagement/blob/main/screens/ios.gif)
+![Alt text](https://github.com/alperenyanc/RNStateManagement/blob/main/screens/android.gif)
 
  
 ### Installation
