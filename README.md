@@ -1,7 +1,8 @@
 # Simple Global State for React Native 
  
-Add this ![Alt text](ios.gif) / ![](ios.gif)
+![Alt text](https://github.com/alperenyanc/RNStateManagement/blob/main/screens/ios.gif)
 
+ 
 ### Installation
  
 ```sh
