@@ -1,8 +1,7 @@
-import React from 'react'; 
-import Index from './components/Index'
+import React from 'react';
+import Index from './components/Index';
 // import StateProvider
 import {StateProvider} from './modules/context/state';
- 
 
 const App = () => {
   // first create initialState  obj.
@@ -25,11 +24,9 @@ const App = () => {
     // added Provider
     // given initialState and reducer in stateProvider.
     <StateProvider initialState={initialState} reducer={reducer}>
-       <Index />
+      <Index />
     </StateProvider>
   );
 };
 
 export default App;
-
- 
